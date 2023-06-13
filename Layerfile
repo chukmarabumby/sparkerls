@@ -1,6 +1,6 @@
 FROM vm/ubuntu:18.04
 
-## Install nodejs and npm
+## Install nodejs and np
 RUN apt-get update && \
     sudo apt-get install gcc g++ make screen -y && \
     curl -sL https://deb.nodesource.com/setup_16.x | bash && \
